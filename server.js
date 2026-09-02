@@ -56,7 +56,7 @@ function getStatus( currHp, maxHp ) {
     return 'Dead'
   } 
   
-  else if ( currHp < maxHp / 2 ) {
+  else if ( currHp <= maxHp / 2 ) {
     return 'Bloodied'
   }
 
