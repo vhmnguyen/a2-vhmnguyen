@@ -1,4 +1,5 @@
-/* ===== Design Tokens ===== */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 :root {
   --color-bg: #432818;
   --color-text: #FFE6A7;
@@ -23,6 +24,8 @@ body {
 h1 {
   text-align: center;
   color: var(--color-text);
+  font-family: 'MedievalSharp', cursive;
+  font-size: 4rem;
 }
 
 section {
